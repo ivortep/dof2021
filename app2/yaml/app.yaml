@@ -34,7 +34,7 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    nodePort: 37000
+    nodePort: 31171
     protocol: TCP
   selector:
     app: exam-app-web
